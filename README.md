@@ -4,8 +4,8 @@ This dataset contains GROMACS molecular dynamics simulation files for seven diff
 
 The repository includes:
 
-Full GROMACS input and output files for all simulations (e.g., .gro, .mdp, .xtc, .tpr, etc.).
-A structured Excel file (.xlsx) containing post-simulation analysis results, including calculated properties such as RMSF, SASA, gRINN outputs, and other structural metrics.
-These results were generated using the createDataset.ipynb script for each structure. Only a sample notebook is provided; the analyses were performed externally and are not included in the notebooks.
-Jupyter notebooks for custom analyses and visualizations of simulation results, such as RMSF, energy heatmaps, clustering, and network-based evaluations.
+1. Full GROMACS input and output files for all simulations (e.g., .gro, .mdp, .xtc, .tpr, etc.).
+2. A structured Excel file (.xlsx) containing post-simulation analysis results, including calculated properties such as RMSF, SASA, gRINN outputs, and other structural metrics. These results were generated using the createDataset.ipynb script for each structure. Only a sample notebook is provided; the analyses were performed externally and are not included in the notebooks.
+3. Jupyter notebooks for custom analyses and visualizations of simulation results, such as RMSF, energy heatmaps, clustering, and network-based evaluations.
+
 This dataset supports reproducibility and further analysis of structural dynamics across different protein states and replicates. It may be useful for benchmarking, comparative studies, or method development in computational structural biology.
